@@ -15,7 +15,7 @@ jobs:
         run: echo Hello, world!
       - uses: actions/checkout@v4
       - name: Run a one-line script
-        run: sleep 120
+        run: sleep 1
 
   integration-tests:
     runs-on: ubuntu-latest
